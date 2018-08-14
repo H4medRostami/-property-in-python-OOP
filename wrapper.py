@@ -1,6 +1,6 @@
 class list_wrapper:
     def __init__(self,list_value=[],slice_num=2):
-        self._list_value=list_value
+        self._list_value=list_value # _ before variable means private class variable.
         self.slice_num=slice_num
         
     def wrapper(self):
